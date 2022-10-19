@@ -1,0 +1,24 @@
+{
+  "name": "image-compression",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev:compress-images": "nodemon src/compress-images.js",
+    "dev:sharp": "nodemon src/sharp.js"
+  },
+  "keywords": [],
+  "author": "Tobias Schmücker",
+  "license": "ISC",
+  "dependencies": {
+    "compress-images": "^2.0.5",
+    "gifsicle": "5.2.1",
+    "imagemin": "^8.0.1",
+    "pngquant-bin": "6.0.1",
+    "sharp": "^0.31.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
